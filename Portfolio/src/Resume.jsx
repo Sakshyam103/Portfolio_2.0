@@ -10,7 +10,7 @@ function Resume(){
         document.body.removeChild(link);
     }
     return (
-        <div className="w-screen h-screen bg-[url('/src/assets/des1.png')] bg-fixed">
+        <div className="w-screen h-screen bg-[url('/assets/des1.png')] bg-fixed">
             <div className="h-screen m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] flex flex-col gap-2 bg-gray-300 border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
                 {/*<div>*/}
                 {/*    <button onClick={downloadFile}>Download</button>*/}

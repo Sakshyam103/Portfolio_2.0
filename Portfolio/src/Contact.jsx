@@ -53,7 +53,7 @@ function Contact(){
 
 
     return(
-        <div className="w-screen h-screen bg-[url('/src/assets/des1.png')] bg-fixed">
+        <div className="w-screen h-screen bg-[url('/assets/des1.png')] bg-fixed">
             <div className="h-screen m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] flex flex-col gap-2 bg-gray-300 border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
 
                 <h1 className="text-center text-4xl text-purple-950 font-bold font-serif italic pt-4 mt-5">Have some question?</h1>
@@ -94,10 +94,10 @@ function Contact(){
                 </div>
                 <div className="flex w-full">
                     <div className="flex-1 pl-5 m-2 flex flex-row gap-4">
-                        <a href="https://www.linkedin.com/in/sakshyam103/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:scale-110 hover:border-blue-600" src="/src/assets/linkedin.svg"/></a>
-                        <a href="https://github.com/Sakshyam103"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/src/assets/github.svg"/></a>
-                        <a href="https://www.instagram.com/sak_shyam19/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/src/assets/instagram.svg"/></a>
-                        <a href="https://www.facebook.com/sakshyam.nepali/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/src/assets/facebook-f.svg"/></a>
+                        <a href="https://www.linkedin.com/in/sakshyam103/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:scale-110 hover:border-blue-600" src="/assets/linkedin.svg"/></a>
+                        <a href="https://github.com/Sakshyam103"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/github.svg"/></a>
+                        <a href="https://www.instagram.com/sak_shyam19/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/instagram.svg"/></a>
+                        <a href="https://www.facebook.com/sakshyam.nepali/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/facebook-f.svg"/></a>
                     </div>
 
                 </div>

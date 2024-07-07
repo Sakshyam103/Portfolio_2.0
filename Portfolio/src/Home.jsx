@@ -7,7 +7,7 @@ function Home(){
     const navigate = useNavigate();
     return(
         <div>
-            <div className="w-screen h-fit bg-[url('/src/assets/des1.png')] bg-fixed">
+            <div className="w-screen h-fit bg-[url('/assets/des1.png')] bg-fixed">
                 <div className="flex flex-row m-auto">
                     {/*<div  className="w-[5%] h-full flex flex-col justify-items-center content-center text-center">*/}
                     {/*    <button>previous button</button>*/}

@@ -5,7 +5,7 @@ function CoreClasses(){
     const classInProgress = ["Software Deployment","Parallel Computing","Software Quality","Software Design"]
     return(
 
-        <div className="w-screen h-screen bg-[url('/src/assets/des1.png')] bg-fixed">
+        <div className="w-screen h-screen bg-[url('/assets/des1.png')] bg-fixed">
             <div className="h-screen m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] flex flex-col gap-2 bg-gray-300 border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
                 <h1 className="text-3xl text-violet-950 text-center font-serif font-bold italic">Core Classes</h1>
                 <div className="flex flex-row">

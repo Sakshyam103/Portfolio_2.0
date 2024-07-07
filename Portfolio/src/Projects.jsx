@@ -51,7 +51,7 @@ function Projects(){
         )
     }
 
-    return (<div className="w-screen h-fit bg-[url('/src/assets/des1.png')] bg-fixed">
+    return (<div className="w-screen h-fit bg-[url('/assets/des1.png')] bg-fixed">
         <div className="m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] h-screen flex flex-col gap-2 bg-gray-300 border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
             <div id="div1" className="h-40 border-2 border-black rounded-lg hover:shadow-2xl text-purple-700 hover:text-purple-900 hover:h-80 bg-black m-3 p-4 overflow-y-hidden" onMouseEnter={()=>(setIsShown(true))} onMouseLeave={()=>(setIsShown(false))}>
                 {isShown === false && header("Envisonary Web Application")}
