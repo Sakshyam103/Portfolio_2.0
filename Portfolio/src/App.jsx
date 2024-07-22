@@ -6,6 +6,7 @@ import Resume from "./Resume.jsx"
 import Projects from "./Projects.jsx";
 import CoreClasses from "./CoreClasses.jsx";
 import Contact from "./Contact.jsx";
+import Research from "./Research.jsx";
 
 
 function App(){
@@ -20,6 +21,7 @@ function App(){
                         <Route path = "/home/resume" element={<Resume/>}></Route>
                         <Route path = "/home/core_classes" element={<CoreClasses/>}></Route>
                         <Route path="/home/contact" element={<Contact/>}></Route>
+                        <Route path="/home/research" element={<Research/>}></Route>
                     </Routes>
                 </div>
             </Router>

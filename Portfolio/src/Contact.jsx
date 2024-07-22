@@ -1,7 +1,9 @@
 import axios from "axios";
+import {useNavigate} from "react-router-dom";
 
 
 function Contact(){
+    const navigate = useNavigate();
 
     const email = async (e) => {
         e.preventDefault();
@@ -53,11 +55,11 @@ function Contact(){
 
 
     return(
-        <div className="w-screen h-screen bg-[url('/assets/des1.png')] bg-fixed">
-            <div className="h-screen m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] flex flex-col gap-2 bg-gray-300 border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
-
-                <h1 className="text-center text-4xl text-purple-950 font-bold font-serif italic pt-4 mt-5">Have some question?</h1>
-                <h2 className="text-sm text-left p-4">Thank you for your interest in my Portfolio. If you have any questions or suggestions please fill out the form below or e-mail me at <a href="mailto:nepalisakshyam19@gmail.com">nepalisakshyam19@gmail.com</a> and I will get back to you soon.</h2>
+        <div className="w-screen h-fit bg-[url('/assets/des1.png')] bg-fixed">
+            <div className="h-full m-auto w-[50%] max-[1024px]:w-[80%] max-[480px]:w-[100%] flex flex-col gap-2 bg-cover bg-[url('/assets/opa.png')] border-black border-2 p-3 rounded-lg shadow-xl shadow-black">
+                <nav ><button className="h-6 text-center rounded-lg font-bold shadow-2xl shadow-blue-400 w-16 hover:bg-blue-700 bg-blue-600" onClick={()=>navigate("/")}>Back</button></nav>
+                <h1 className="text-center text-4xl text-purple-950 font-bold font-serif backdrop-blur-lg italic pt-4 mt-5">Get in touch?</h1>
+                <h2 className="text-sm text-left font-bold bg-white rounded-lg p-4">Thank you for your interest in my Portfolio. If you have any questions or suggestions please fill out the form below or e-mail me at <a href="mailto:nepalisakshyam19@gmail.com">nepalisakshyam19@gmail.com</a> and I will get back to you soon.</h2>
                 {/*<div className="bg-white w-[95%] mx-auto my-4 h-96 p-4 grid grid-rows-4 grid-cols-2">*/}
                 {/*    <div className="col-span-2"><h1 className="text-3xl text-sky-500 border-b-4 border-b-indigo-500">Contact me</h1></div>*/}
                 {/*    <div><input/></div>*/}
@@ -73,19 +75,19 @@ function Contact(){
                                 <input type="text" id="fname" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4 hover:shadow-lg hover:shadow-blue-400" placeholder= "First Name*"/>
                             </div>
                             <div>
-                                <input type="text" id="lname" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4" placeholder="Last Name"/>
+                                <input type="text" id="lname" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4 hover:shadow-lg hover:shadow-blue-400" placeholder="Last Name"/>
                             </div>
                             <div>
-                                <input type="text" id="phone" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4" placeholder="Phone*"/>
+                                <input type="text" id="phone" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4 hover:shadow-lg hover:shadow-blue-400" placeholder="Phone"/>
                             </div>
                             <div >
-                                <input type="text" id="email" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4" placeholder="Email*"/>
+                                <input type="text" id="email" className="w-full h-10 border-solid border-gray-500 border-2 text-gray-600 pl-4 hover:shadow-lg hover:shadow-blue-400" placeholder="Email*"/>
                             </div>
                             <div className="col-span-2">
-                                <input type="text" id="message" className="w-full h-20 border-solid border-gray-500 border-2 text-gray-600 pl-4" placeholder="message"/>
+                                <input type="text" id="message" className="w-full h-20 border-solid border-gray-500 border-2 text-gray-600 pl-4 hover:shadow-lg hover:shadow-blue-400" placeholder="message"/>
                             </div>
                             <div className="col-span-2 mt-2">
-                                <button id="button" type="submit" className="m-auto h-10 w-36 shadow-sm  shadow-indigo-500 bg-gradient-to-r from-blue-400 to-purple-500 rounded-xl border-black hover:border-b-4">Send message</button>
+                                <button id="button" type="submit" className="m-auto h-10 w-36 shadow-sm  shadow-indigo-500 bg-gradient-to-r from-blue-400 to-purple-500 rounded-xl border-black  hover:border-b-4">Send message</button>
                             </div>
 
 
@@ -94,7 +96,7 @@ function Contact(){
                 </div>
                 <div className="flex w-full">
                     <div className="flex-1 pl-5 m-2 flex flex-row gap-4">
-                        <a href="https://www.linkedin.com/in/sakshyam103/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:scale-110 hover:border-blue-600" src="/assets/linkedin.svg"/></a>
+                        <a href="https://www.linkedin.com/in/sakshyam103/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:scale-110 hover:bg-blue-400 hover:border-blue-600" src="/assets/linkedin.svg"/></a>
                         <a href="https://github.com/Sakshyam103"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/github.svg"/></a>
                         <a href="https://www.instagram.com/sak_shyam19/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/instagram.svg"/></a>
                         <a href="https://www.facebook.com/sakshyam.nepali/"><img className="fill-white bg-white border-white rounded-full border-2 h-7 w-7 hover:bg-blue-400 hover:scale-110 hover:border-blue-600" src="/assets/facebook-f.svg"/></a>
